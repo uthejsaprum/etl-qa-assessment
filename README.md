@@ -1,4 +1,4 @@
-# 📊 ETL / QA Data Validation Project
+#  ETL / QA Data Validation Project
 
 ## Overview
 This project focuses on validating data across different layers:
@@ -21,7 +21,7 @@ These are the raw input files:
 
 ---
 
-### 📊 Data Models
+###  Data Models
 
 We created data models to understand data flow:
 
@@ -33,7 +33,7 @@ We created data models to understand data flow:
 
 ---
 
-### 📄 Documentation Files
+###  Documentation Files
 
 - `repo details.docx`  
   → Information about Git repo  
@@ -46,7 +46,7 @@ We created data models to understand data flow:
 
 ---
 
-### 🐍 Python Scripts
+###  Python Scripts
 
 - `flatten_json.py`  
   → Used to flatten JSON file (`Shipping.json`)  
@@ -58,14 +58,14 @@ We created data models to understand data flow:
 
 ---
 
-## 📊 Validation Reports (Main Work)
+##  Validation Reports (Main Work)
 
 We created **two separate validation reports**:
 
 ---
 
 ### 1️⃣ Source → Silver Validation  
-📄 File: `src_files_to_silver_validation.xlsx`
+ File: `src_files_to_silver_validation.xlsx`
 
 - Validates data from source files to silver tables  
 - Covers:
@@ -77,7 +77,7 @@ We created **two separate validation reports**:
 ---
 
 ### 2️⃣ Silver → Gold Validation  
-📄 File: `silver_to_gold_validation.xlsx`
+ File: `silver_to_gold_validation.xlsx`
 
 - Validates data from silver tables to gold tables  
 - Covers:
@@ -113,7 +113,7 @@ We performed:
 
 ---
 
-## 📌 Key Highlights
+##  Key Highlights
 
 - Separate validation reports for each layer  
 - Data model diagrams for better understanding  
@@ -122,15 +122,15 @@ We performed:
 
 ---
 
-## 🎯 Outcome
+##  Outcome
 
-- All test cases executed successfully  
+- All test cases executed successfully(defects exists)  
 - Data validated across all layers  
 - 3 defects found while validating source files vs silver layer
 - Requirement gaps documented separately  
 
 ---
 
-## 💬 Summary
+##  Summary
 
 This project demonstrates a complete ETL QA validation process, ensuring data accuracy from source files to final reporting tables in the gold layer.
