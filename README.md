@@ -1,7 +1,7 @@
 #  ETL / QA Data Validation Project
 
 ## Overview
-This project focuses on validating data across different layers:
+This project focuses on validating data across different layers(src-->silver-->gold):
 
 - Source Files → Silver Layer  
 - Silver Layer → Gold Layer  
@@ -13,7 +13,7 @@ The goal is to ensure data is correctly transformed, aggregated, and meets busin
 ## 🗂️ Project Structure
 
 ### 📁 src (Source Files)
-These are the raw input files:
+These are the raw input files located in databricks volume:
 
 - `Customer.xls` → Customer details  
 - `Order.csv` → Order details  
@@ -95,7 +95,7 @@ We created **two separate validation reports**:
 - SQL  
 - Excel  
 
----
+<!-- ---
 
 ##  Testing Approach
 
@@ -111,14 +111,14 @@ We performed:
 - Checked aggregations and transformations  
 - Compared source query output vs target tables  
 
----
+--- -->
 
-##  Key Highlights
+<!-- ##  Key Highlights
 
 - Separate validation reports for each layer  
 - Data model diagrams for better understanding  
 - End-to-end testing from raw data to final output  
-- Detailed test cases, metrics, requirement gaps and bug reports included  
+- Detailed test cases, metrics, requirement gaps and bug reports included   -->
 
 ---
 
